@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color: slateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+main {
+    background-color: white;
+    padding: 3em;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.weapons {
+    border:5px dashed darkslateblue;
+    margin-bottom: 1em;
+}
+
+.wicon {
+    height: 50px;
+    padding: 20px;
+    cursor: pointer;
+    transform: 100ms;
+}
+
+.wicon:hover {
+    transform: scale(1.2);
+}
+
+.round {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pchoice, .cchoice {
+    width: 150px;
+}
+
+.cicon, .picon {
+    height: 50px;
+}
+
+.winner {
+    font-size: 1.5em;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.player, .computer {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.pname, .cname {
+    margin-right: 5px;
+}
+
+button {
+    cursor: pointer;
+}

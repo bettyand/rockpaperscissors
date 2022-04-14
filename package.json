@@ -1,0 +1,22 @@
+{
+  "name": "rockpaperscissors",
+  "version": "1.0.0",
+  "description": "basic rps game",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bettyand/rockpaperscissors.git"
+  },
+  "author": "Betty Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bettyand/rockpaperscissors/issues"
+  },
+  "homepage": "https://github.com/bettyand/rockpaperscissors#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
